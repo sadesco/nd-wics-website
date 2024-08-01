@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    box-shadow: none; /* Removed box-shadow */
+    z-index: 1000; 
+  }
+  
+  .logoHeader {
+    height: 8em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  
+  .nav-links  {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #6E43C8;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav-links li {
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #6E43C8;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 36px; /* Increased font size for larger menu icon */
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+  
+    .logoHeader {
+      margin-bottom: 0;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #f8f8f8;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+      margin-left: auto; /* Ensure the menu icon stays on the right side */
+      color: #6E43C8;
+    }
+  }
+  
+  .container.active .nav-links {
+    display: flex;
+  }

@@ -1,0 +1,228 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards; 
+  }
+  
+  .fade-in.slow {
+    animation-duration: 1.5s; 
+  }
+  
+  .image-container2 img,
+  .inner-container {
+    transition: opacity 1s ease-out;
+  }
+  
+  .image-container2 {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .image-container2::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: -15px;
+    bottom: -15px;
+    border: 5px solid #6E43C8;
+    z-index: -1;
+  }
+  
+  .image-container2 img {
+    display: block;
+    width: 100%;
+    max-width: 580px;
+  }
+  
+  .image-container3 {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .image-container3::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: -15px;
+    bottom: -15px;
+    z-index: -1;
+  }
+  
+  .image-container3 img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .grid-item3, .grid-item4, .grid-item5, .grid-item6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .grid-item4 {
+    padding-top: 200px;
+    padding-right: 90px;
+  }
+  
+  .grid-item3 {
+    padding-left: 90px;
+    padding-top: 110px;
+  }
+  
+  #titleAbout {
+    font-size: 50px;
+    color: #6E43C8;
+  }
+  
+  .aboutDescrip {
+    font-size: 24.5px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  /* Add padding to the top to avoid overlap with the header */
+  .content-container {
+    padding-top: 120px; /* Adjust this value based on your header height */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .grid-item4 {
+      padding-top: 150px;
+      padding-right: 60px;
+    }
+  
+    .grid-item3 {
+      padding-left: 60px;
+      padding-top: 80px;
+    }
+  
+    #titleAbout {
+      font-size: 40px;
+    }
+  
+    .aboutDescrip {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .grid-item4, .grid-item3, .grid-item5 {
+      padding: 20px;
+    }
+    
+    .grid-item6 {
+      padding: 20px;
+      margin-top: -140px;
+    }
+  
+    .image-container2 img, .image-container3 img {
+      max-width: 100%;
+    }
+  
+    .grid-item4, .grid-item3 {
+      padding: 10px;
+    }
+  
+    #titleAbout {
+      font-size: 35px;
+    }
+  
+    .aboutDescrip {
+      font-size: 18px;
+    }
+    
+    .image-container3 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .grid-item4, .grid-item3 {
+      padding: 0 10px;
+    }
+  
+    #titleAbout {
+      font-size: 30px;
+    }
+  
+    .aboutDescrip {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .grid-item3 {
+      order: 1;
+    }
+  
+    .grid-item4 {
+      order: 2;
+      padding-bottom: 10px;
+    }
+  
+    .grid-item6 {
+      order: 3;
+      padding-top: 10px;
+      margin-top: -140px;
+    }
+  
+    #titleAbout {
+      font-size: 28px;
+    }
+  
+    .aboutDescrip {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid-item4, .grid-item3 {
+      padding: 0 5px;
+    }
+  
+    #titleAbout {
+      font-size: 25px;
+    }
+  
+    .aboutDescrip {
+      font-size: 14px;
+    }
+  
+    .grid-item6 {
+      margin-top: -140px; /* Reduces the gap between "Our Vision" section and the image above */
+    }
+  }

@@ -1,0 +1,85 @@
+
+.boardTitle {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.board {
+    padding-top: 200px;
+    color: #6E43C8;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns for large screens */
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.boardPicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content */
+    padding: 20px;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.6s ease-in-out;
+}
+
+.boardPicture img {
+    width: 300px; /* Fixed width */
+    height: 400px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the set dimensions */
+    border-radius: 50%; /* Make the image a vertical oval */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.name {
+    font-size: 20px;
+    color: #6E43C8;
+    margin: 5px 0; /* Adjust margin for spacing */
+}
+
+.position {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.boardPicture.visible {
+    opacity: 1; /* Show when in view */
+}
+
+@media (max-width: 768px) {
+    .grid-container3 {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    }
+
+    .board {
+        font-size: 30px;
+    }
+
+    .boardTitle {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .position {
+        font-size: 14px;
+    }
+}
+
+.footer {
+    background-color: #6E43C8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
