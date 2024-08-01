@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/nd-wics-website/static/css/main.57566d12.css",
+    "main.js": "/nd-wics-website/static/js/main.eda73bc7.js",
+    "static/js/453.ed3810f9.chunk.js": "/nd-wics-website/static/js/453.ed3810f9.chunk.js",
+    "static/media/aboutPic.png": "/nd-wics-website/static/media/aboutPic.0e94cc988ee5f2e492a2.png",
+    "static/media/graceHop.png": "/nd-wics-website/static/media/graceHop.a4d25d51ce7fa0f20114.png",
+    "static/media/panels.png": "/nd-wics-website/static/media/panels.0a8af5bfdb358d730813.png",
+    "static/media/conference.png": "/nd-wics-website/static/media/conference.10b37979645fd9966f50.png",
+    "static/media/ayda.png": "/nd-wics-website/static/media/ayda.352b9b352c5333a07859.png",
+    "static/media/brooke.png": "/nd-wics-website/static/media/brooke.66d594a0e0a71a37c987.png",
+    "static/media/andrea.png": "/nd-wics-website/static/media/andrea.816983b15586778d7a44.png",
+    "static/media/brynn.png": "/nd-wics-website/static/media/brynn.7e2db3ece81b1d4d5574.png",
+    "static/media/sadie.png": "/nd-wics-website/static/media/sadie.65829933750bedf38b11.png",
+    "static/media/sophia.png": "/nd-wics-website/static/media/sophia.8aebd6f02d1adbff9784.png",
+    "static/media/lucia.png": "/nd-wics-website/static/media/lucia.87287c4717cc6e7c189f.png",
+    "static/media/dylan.png": "/nd-wics-website/static/media/dylan.3f539f4ff884aaccf061.png",
+    "static/media/kara.png": "/nd-wics-website/static/media/kara.0f85593931c21ce1d6b8.png",
+    "static/media/carolina.png": "/nd-wics-website/static/media/carolina.b78474942fadbf7fa39e.png",
+    "static/media/izzy.png": "/nd-wics-website/static/media/izzy.79abb477535246aa1f29.png",
+    "static/media/wicsLogo.png": "/nd-wics-website/static/media/wicsLogo.607c5a86790c0278070e.png",
+    "static/media/headerLogo.png": "/nd-wics-website/static/media/headerLogo.9b833037d9daeeba473c.png",
+    "static/media/mouse.png": "/nd-wics-website/static/media/mouse.37dd44f5d5852dec986b.png",
+    "static/media/girlswhocode.png": "/nd-wics-website/static/media/girlswhocode.8078dbcc5f36e5ac0152.png",
+    "static/media/filler.png": "/nd-wics-website/static/media/filler.89aa89b30a76328a8dc5.png",
+    "index.html": "/nd-wics-website/index.html",
+    "main.57566d12.css.map": "/nd-wics-website/static/css/main.57566d12.css.map",
+    "main.eda73bc7.js.map": "/nd-wics-website/static/js/main.eda73bc7.js.map",
+    "453.ed3810f9.chunk.js.map": "/nd-wics-website/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57566d12.css",
+    "static/js/main.eda73bc7.js"
+  ]
+}
