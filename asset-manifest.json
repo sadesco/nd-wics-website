@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nd-wics-website/static/css/main.57566d12.css",
-    "main.js": "/nd-wics-website/static/js/main.eda73bc7.js",
+    "main.js": "/nd-wics-website/static/js/main.603cfc54.js",
     "static/js/453.ed3810f9.chunk.js": "/nd-wics-website/static/js/453.ed3810f9.chunk.js",
     "static/media/aboutPic.png": "/nd-wics-website/static/media/aboutPic.0e94cc988ee5f2e492a2.png",
     "static/media/graceHop.png": "/nd-wics-website/static/media/graceHop.a4d25d51ce7fa0f20114.png",
@@ -25,11 +25,11 @@
     "static/media/filler.png": "/nd-wics-website/static/media/filler.89aa89b30a76328a8dc5.png",
     "index.html": "/nd-wics-website/index.html",
     "main.57566d12.css.map": "/nd-wics-website/static/css/main.57566d12.css.map",
-    "main.eda73bc7.js.map": "/nd-wics-website/static/js/main.eda73bc7.js.map",
+    "main.603cfc54.js.map": "/nd-wics-website/static/js/main.603cfc54.js.map",
     "453.ed3810f9.chunk.js.map": "/nd-wics-website/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57566d12.css",
-    "static/js/main.eda73bc7.js"
+    "static/js/main.603cfc54.js"
   ]
 }
